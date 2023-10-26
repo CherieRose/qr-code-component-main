@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+}
+
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 10px 20px hsla(219, 15%, 55%, 0.50);
+}
+
+.qr {
+    border-radius: 10px;
+    margin: 15px;
+    width: 90%;
+}
+
+p {
+    width: 80%;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    margin: 15px auto;
+    padding-bottom: 45px;
+
+}
+
+h1 {
+    width: 80%;
+    font-size: 1.3rem;
+    color: hsl(218, 44%, 22%);
+    margin: 15px auto;
+}
+
+
+/* My code is not quite done yet as I've still to view it on mobile -
+so I'm leaving my cheeky style notes here for now!
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700  */
