@@ -29,6 +29,7 @@ footer {
     border-radius: 15px;
     text-align: center;
     box-shadow: 5px 10px 20px hsla(219, 15%, 55%, 0.50);
+    min-width: 300px;
 }
 
 .qr {
